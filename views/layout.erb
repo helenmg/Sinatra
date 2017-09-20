@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf8">
+  <title><%= @title + ' | Recall' %></title>
+  <link href="/reset.css" rel="stylesheet">
+  <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">Notas</a></h1>
+      <h2>'Apunta una nota que quieras recordar'</h2>
+    </hgroup>
+  </header>
+ 
+  <div id="main">
+    <%= yield %>
+  </div>
+ 
+  <footer>
+    <p><small>An app for <a href="http://net.tutsplus.com">Nettuts+</a>.</small></p>
+  </footer>
+</body>
+</html>
