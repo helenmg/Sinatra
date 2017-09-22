@@ -21,6 +21,9 @@ get '/' do
     erb :home
   end
 
+get '/hola' do
+  'hola'
+end
 
 post '/' do
   n = Note.new
