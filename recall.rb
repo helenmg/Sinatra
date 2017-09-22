@@ -2,7 +2,7 @@ require 'rubygems'
 require 'sinatra'
 require 'data_mapper'
 
-DataMapper::setup(:default, 'postgres://gosfvnubzzibih:64b62966723d37a689f958ec9b1d2fc2bd4b4e33160579fde988a410baab9fc8@ec2-54-247-64-64.eu-west-1.compute.amazonaws.com:5432/dbpln2k7uafa35')
+DataMapper::setup(:default,  ENV['DATABASE_URL'] || "sqlite3://#{Dir.pwd}/recall.db")
 
 class Note
  include DataMapper::Resource
