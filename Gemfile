@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 gem 'sinatra', '2.0.0'
 gem 'datamapper', '1.2.0'
 gem 'shotgun', '0.9.2'
+gem 'local_time', '~> 2.0'
 
 group :development do
     gem 'sqlite3', '1.3.13'
