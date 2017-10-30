@@ -18,7 +18,7 @@ class App < Sintra::Base
     novio = params["name1"] 
     novia = params["name2"]
     fecha = params["date"]
-    @invitacion = Invitaciones.new(novio, novia, fecha)
+    @invitacion = App.new(novio, novia, fecha)
     erb :invitaciones
   end  
 end
