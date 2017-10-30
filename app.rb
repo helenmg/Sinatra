@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 
-class App < Sintra::Base 
+class App < Sinatra::Base 
   attr_reader :novio, :novia, :fecha
 
   def initialize(novio, novia, fecha)
