@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 
-class Invitaciones
+class App < Sintra::Base 
   attr_reader :novio, :novia, :fecha
 
   def initialize(novio, novia, fecha)
