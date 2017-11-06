@@ -2,4 +2,6 @@ poner parametros para crear la invitacion (que no deje sin ponerlos todos)
 
 poner texto en la invitacion 
 
-guardar las invitaciones y crear una lista para ver las que se han creado
+enlace a las invitaciones con el id (inivtacion.erb)
+
+

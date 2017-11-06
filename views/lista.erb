@@ -1,0 +1,9 @@
+<ul>
+<% @invitaciones.each do |invitacion| %>
+    <li>
+        <%= invitacion.novio %> y
+        <%= invitacion.novia %> el
+        <%= invitacion.fecha %>
+    </li>
+<% end %>
+</ul>
