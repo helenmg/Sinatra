@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 
-class App < Sinatra::Base 
+#class App < Sinatra::Base 
   get '/' do
     erb :home
   end
@@ -13,7 +13,7 @@ class App < Sinatra::Base
     @invitacion = Invitaciones.new(novio, novia, fecha)
     erb :invitaciones
   end  
-end
+#end
 
 class Invitaciones
   attr_reader :novio, :novia, :fecha
